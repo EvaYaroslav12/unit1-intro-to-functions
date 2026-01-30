@@ -4,18 +4,21 @@ t = Turtle()
 
 t.speed (20)
 
-sidelength = 100
-rotate = 90
-def square(x,y):
-    for i in range(4):
+sidelength = 50
+rotate = 144
+def star(x,y):
+    for i in range(5):
         t.forward(x)
         t.left(y)
+star(sidelength, rotate)
+
 
 def addSquares(iRange):
-    length = 100
+    length = 50
 
     for i in range(iRange):
-        square(length, 90) 
+        star(length, 144) 
+        length +=5
         t.left(5)
        
             

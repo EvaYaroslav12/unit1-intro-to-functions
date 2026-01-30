@@ -5,8 +5,6 @@ t = Turtle()
 turtle.colormode(255)
 t.speed(90)
 
-sidelength = 100
-rotate = 90
 def triangle(x,y):
     for i in range(4):
         t.forward(x)
